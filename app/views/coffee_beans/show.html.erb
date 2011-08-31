@@ -1,0 +1,15 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Variety:</b>
+  <%= @coffee_bean.variety %>
+</p>
+
+<p>
+  <b>Comment:</b>
+  <%= @coffee_bean.comment %>
+</p>
+
+
+<%= link_to 'Edit', edit_coffee_bean_path(@coffee_bean) %> |
+<%= link_to 'Back', coffee_beans_path %>
